@@ -8,7 +8,14 @@
     margin-top: 35px;
     gap: 15px;
 }
-.choose-cart{
-    background-color: gainsboro;
+.choose-right{
+    background-color: rgb(190, 190, 190);
     width: 100%;
+    border-radius: 7px ;
+    margin-top: 58px;
 }
+/* @media screen and (max-width:400px) {
+    .players-container{
+    grid-template-columns: repeat(1, 1fr)
+   }
+} */

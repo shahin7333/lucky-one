@@ -12,7 +12,7 @@
 .player img{
     height: 200px;
     width: 300px;
-    border-radius: 7px;
+    border-radius: 7px 7px 0px 0px;
     
    
 }

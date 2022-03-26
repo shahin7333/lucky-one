@@ -1,7 +1,8 @@
 import React from 'react';
 import './Playerdetails.css'
 const Playerdetails = (props) => {
-    const { img, name, run, wicket } = props.player;
+    const { player, handleAddToRight } = props;
+    const { img, name, run, wicket } = player;
     return (
         <div className='player'>
             <img src={img} alt=""></img>
@@ -10,8 +11,8 @@ const Playerdetails = (props) => {
                 <p>Run: {run}</p>
                 <p>Wicket: {wicket}</p>
             </div>
-            <button className='btn-vote'><b>VOTE</b></button>
-        </div>
+            <button onClick={() => handleAddToRight(player)} className='btn-vote'><b>VOTE</b></button>
+        </div >
     );
 };
 
