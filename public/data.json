@@ -1,0 +1,65 @@
+[
+  {
+    "id": 20,
+    "name": "MASRAFEE BIN MORTAZA",
+    "img": "1.jpg",
+    "run": 5600,
+    "wicket": 356
+  },
+  {
+    "id": 21,
+    "name": "SHAKIB AL HASAN",
+    "img": "2.jpg",
+    "run": 16500,
+    "wicket": 756
+  },
+  {
+    "id": 22,
+    "name": "HASIM AMLA",
+    "img": "3.jpg",
+    "run": 12500,
+    "wicket": 6
+  },
+  {
+    "id": 23,
+    "name": "DAVID WARNER",
+    "img": "4.jpg",
+    "run": 13500,
+    "wicket": 1
+  },
+  {
+    "id": 24,
+    "name": "BABAR AZAM",
+    "img": "5.jpg",
+    "run": 4500,
+    "wicket": 17
+  },
+  {
+    "id": 25,
+    "name": "MOHAMMAD RIZAM",
+    "img": "6.jpg",
+    "run": 5500,
+    "wicket": 0
+  },
+  {
+    "id": 26,
+    "name": "JOE ROOT",
+    "img": "7.jpg",
+    "run": 15500,
+    "wicket": 78
+  },
+  {
+    "id": 27,
+    "name": "VIRAT KHOLI",
+    "img": "8.jpg",
+    "run": 18500,
+    "wicket": 11
+  },
+  {
+    "id": 28,
+    "name": "STEVE SMITH",
+    "img": "9.jpg",
+    "run": 14400,
+    "wicket": 5
+  }
+]

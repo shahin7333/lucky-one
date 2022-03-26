@@ -1,0 +1,14 @@
+.best-players-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.players-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 35px;
+    gap: 15px;
+}
+.choose-cart{
+    background-color: gainsboro;
+    width: 100%;
+}
