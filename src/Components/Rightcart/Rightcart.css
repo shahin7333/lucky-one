@@ -1,0 +1,14 @@
+.right-cart{
+    margin-left: 20px;
+    
+
+}
+.delete{
+    display: flex;
+    align-items: center;
+
+    /* justify-content: center; */
+}
+.fa-delete{
+margin-left: 30px;
+}

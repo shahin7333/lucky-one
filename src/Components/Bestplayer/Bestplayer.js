@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Playerdetails from '../Playerdetails/Playerdetails';
+import Rightcart from '../Rightcart/Rightcart';
 import './Bestplayer.css'
 
 const Bestplayer = () => {
@@ -12,7 +13,6 @@ const Bestplayer = () => {
     }, []);
 
     const handleAddToRight = (player) => {
-        console.log(player);
         const newList = [...list, player];
         setList(newList);
     }
@@ -26,8 +26,15 @@ const Bestplayer = () => {
                 }
             </div>
             <div className="choose-right">
-                <h3>best players</h3>
-                <p>seleted player:{list.length}</p>
+                <h3>Best players in my eyes</h3>
+                {
+                    list.map(player => <Rightcart key={player.id} player={player}></Rightcart>)
+
+                }
+                <div>
+                    <button className='btn-choose-clear' id='btn-choose-clear-one'><b>Choose One</b></button><br />
+                    <button className='btn-choose-clear' id='btn-choose-clear-two'><b>Clear All</b></button>
+                </div>
             </div>
         </div>
     );

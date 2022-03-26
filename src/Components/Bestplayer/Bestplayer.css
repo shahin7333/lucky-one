@@ -1,19 +1,42 @@
 .best-players-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
 }
 .players-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 35px;
     gap: 15px;
 }
 .choose-right{
     background-color: rgb(190, 190, 190);
     width: 100%;
     border-radius: 7px ;
-    margin-top: 58px;
+    margin-top: 22px;
+    font-family: monospace;
+    font-size: 15px;
+   
 }
+.btn-choose-clear{
+border: none;
+padding: 15px;
+font-size: 14px;
+color: blue;
+font-family: monospace;
+
+}
+.btn-choose-clear:hover{
+    background-color: gainsboro;
+}
+#btn-choose-clear-one{
+margin-bottom: 5px;
+border-radius: 7px;
+margin-left: 15px;
+}
+#btn-choose-clear-two{
+    margin-left: 15px;
+    border-radius: 7px;
+}
+
 /* @media screen and (max-width:400px) {
     .players-container{
     grid-template-columns: repeat(1, 1fr)
