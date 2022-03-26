@@ -1,3 +1,5 @@
+import { faVoteYea } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Playerdetails.css'
 const Playerdetails = (props) => {
@@ -11,7 +13,10 @@ const Playerdetails = (props) => {
                 <p>Run: {run}</p>
                 <p>Wicket: {wicket}</p>
             </div>
-            <button onClick={() => handleAddToRight(player)} className='btn-vote'><b>VOTE</b></button>
+            <button onClick={() => handleAddToRight(player)} className='btn-vote'>
+                <p className='vote'><b>VOTE</b></p>
+                <FontAwesomeIcon icon={faVoteYea}></FontAwesomeIcon>
+            </button>
         </div >
     );
 };
