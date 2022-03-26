@@ -1,0 +1,9 @@
+.paragraph{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+    background-color: white;
+    font-family: monospace;
+    padding: 20px;
+}
