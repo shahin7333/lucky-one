@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Rightcart = (props) => {
     const { name, img } = props.player;
-    console.log(props.list);
+    console.log(props.player);
     return (
         <div className='right-cart'>
 
