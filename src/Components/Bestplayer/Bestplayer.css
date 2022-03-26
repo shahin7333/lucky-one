@@ -37,8 +37,15 @@ margin-left: 15px;
     border-radius: 7px;
 }
 
-/* @media screen and (max-width:400px) {
+
+@media (max-width:500px) {
+    .best-players-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .players-container{
-    grid-template-columns: repeat(1, 1fr)
-   }
-} */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+}
